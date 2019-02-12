@@ -8,9 +8,8 @@ logger.setLevel(logging.CRITICAL)
 chatbot = ChatBot("Ejemplo de bot", read_only=True)
 trainer = ChatterBotCorpusTrainer(chatbot)
 #trainer.train(
-    './preguntas_varias.yml'
-
-)
+#    './preguntas_varias.yml'
+#)
 usuario = " "
 
 while usuario != "exit":
